@@ -1,0 +1,72 @@
+Prezime: a
+Ime: a
+Spol: a
+Datum: 
+Drzava: a
+Grad: a
+JMBG: a
+Drzavljanstvo: a
+Broj licne karte/pasosa: a
+Ime oca: a
+Ime majke: aa
+
+Prezime: 1
+Ime: 1
+Spol: 1
+Datum: 11
+Drzava: 1
+Grad: 1
+JMBG: 1
+Drzavljanstvo: 1
+Broj licne karte/pasosa: 1
+Ime oca: 1
+Ime majke: 1
+
+Prezime: 1
+Ime: 1
+Spol: 1
+Datum: 1
+Drzava: 1
+Grad: 1
+JMBG: 1
+Drzavljanstvo: 1
+Broj licne karte/pasosa: 1
+Ime oca: 1
+Ime majke: 1
+
+Prezime: 1
+Ime: 1
+Spol: 1
+Datum: 1
+Drzava: 1
+Grad: 1
+JMBG: 1
+Drzavljanstvo: 1
+Broj licne karte/pasosa: 1
+Ime oca: 1
+Ime majke: 1
+
+Prezime: 1
+Ime: 1
+Spol: 1
+Datum: 1
+Drzava: 1
+Grad: 1
+JMBG: 1
+Drzavljanstvo: 1
+Broj licne karte/pasosa: 1
+Ime oca: 1
+Ime majke: 1
+
+Prezime: 1
+Ime: 1
+Spol: 1
+Datum: 1
+Drzava: 1
+Grad: 1
+JMBG: 1
+Drzavljanstvo: 1
+Broj licne karte/pasosa: 1
+Ime oca: 1
+Ime majke: 1
+
