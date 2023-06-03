@@ -1,6 +1,6 @@
 
 void rodniList(gradjanin g[], int brojacGradjana){
-string broj;
+string broj; // privremena varijabla koja postaje jmbg gradjanina kasnije
 cout << "\tUnesite Jedinstveni maticni broj: ";
 cin >> broj;
 for (int i=0; i<brojacGradjana; i++){
@@ -20,5 +20,5 @@ cout << "\tJedinstveni maticni broj: "<< g[i].jmbg << endl;
 cout << "---------------------------------------------------\n";
 }        
 else{cout << "\tNemamo zabiljezen taj Jedinstveni maticni broj. \n ";}
-}
+} //ako vec postoji taj jmbg, ispisuje sve iz rodniList, a ako ne, uz odgovarajucu poruku vraca na pocetni meni
 }
