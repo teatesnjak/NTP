@@ -1,9 +1,10 @@
-int brojacGradjana;
+int brojacGradjana; //brojac koji pohranjuje gradjane
 void ispis(gradjanin g[], int brojacGradjana){
-string broj;
+string broj; //privremena varijabla koja postaje jmbg gradjanina kasnije
 cout << "\tUnesite Jedinstveni maticni broj: ";
 cin >> broj;
-for (int i=0; i<brojacGradjana; i++){
+for (int i=0; i<brojacGradjana; i++) //mozemo vise gradjana unosit
+{
 	 
 	if(broj==g[i].jmbg){
 cout << "---------------------------------------------------\n";
@@ -22,7 +23,7 @@ cout << "\tIme majke: "<< g[i].majka << endl;
 cout << "---------------------------------------------------\n";
 }
 else {cout << "\tNemamo zabiljezen taj Jedinstveni maticni broj. \n ";}
-
+//ako ima taj jmbg unesen vec, ispisace sve informacije u gradjaninu
 }
 
 	}	
