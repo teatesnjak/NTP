@@ -22,44 +22,45 @@ struct gradjanin{
 void unos (gradjanin g[], int& brojacGradjana){
 
 cout << "\tPrezime: ";
-cin >> g[brojacGradjana].prezime;
+cin >> g[brojacGradjana].prezime; //unos prezimena gradjana
 
 cout << "\tIme: ";
-cin >> g[brojacGradjana].ime;
+cin >> g[brojacGradjana].ime; //unos imena gradjana
 
 cout << "\tSpol: ";
-cin >> g[brojacGradjana].spol;
+cin >> g[brojacGradjana].spol; //unos spola gradjana
 
 cout << "\tDatum rodjenja: ";
 cin.ignore();
-getline(cin, g[brojacGradjana].datum);
+getline(cin, g[brojacGradjana].datum); //unos datuma rodjenja gradjana
 
 cout << "\tDrzava rodjenja: ";
-getline(cin, g[brojacGradjana].drzava);
+getline(cin, g[brojacGradjana].drzava); //unos drzave rodjenja gradjana
 
 cout << "\tGrad rodjenja: ";
-getline(cin, g[brojacGradjana].grad);
+getline(cin, g[brojacGradjana].grad); //unos grada rodjenja gradjana
 
 cout << "\tJMBG: ";
-cin >> g[brojacGradjana].jmbg;
+cin >> g[brojacGradjana].jmbg; //unos jmbg gradjana
 
 cout << "\tDrzavljanstvo: ";
-cin >> g[brojacGradjana].drzavljanstvo;
+cin >> g[brojacGradjana].drzavljanstvo; //unos drzavljanstva gradjana
 
 cout << "\tNacionalnost: ";
-cin >> g[brojacGradjana].nacionalnost;
+cin >> g[brojacGradjana].nacionalnost; //unos nacionalnosti gradjana
 
 cout << "\tBroj licne karte/pasosa: ";
-cin >> g[brojacGradjana].broj;
+cin >> g[brojacGradjana].broj; //unos licne karte/pasosa gradjana
 
 cout << "\tIme oca: ";
-cin >> g[brojacGradjana].otac;
+cin >> g[brojacGradjana].otac; //unos imena oca gradjana
 
 cout << "\tIme majke: ";
-cin >> g[brojacGradjana].majka;
+cin >> g[brojacGradjana].majka; //unos imena majke gradjana
 
+//neki su getline zbog problema koji su nam se javljali kada smo razmake ili previse karaktera unosili
 
-ofstream outfile("licne-informacije.txt", ios::app);
+ofstream outfile("licne-informacije.txt", ios::app); //kreiranje .txt fajla
 
 
 outfile << "Prezime: "<< g[brojacGradjana].prezime 
