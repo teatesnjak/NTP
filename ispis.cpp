@@ -2,10 +2,12 @@ int brojacGradjana;
 
 void ispis(gradjanin g[], int brojacGradjana){
 string broj;
+bool pronadjen= false;
 cout << "Unesite JMBG: \n";
 cin >> broj;
 for (int i=0; i<brojacGradjana; i++){
 if (g[i].jmbg==broj){
+pronadjen=true;
 cout << "Prezime: "<< g[i].prezime<< endl;
 cout << "Ime: " << g[i].ime << endl;
 cout << "Spol: "<< g[i].spol << endl;
@@ -18,8 +20,9 @@ cout << "Nacionalnost: "<< g[i].nacionalnost << endl;
 cout << "Broj licne karte/pasosa: "<< g[i].broj << endl;
 cout << "Ime oca: "<< g[i].otac << endl;
 cout << "Ime majke: "<< g[i].majka << endl;
-
+break;
 }
-else{cout << "Nemamo zabiljezen taj JMBG \n ";}
-	}	
+}
+if {!pronadjen}{cout << "Nemamo zabiljezen taj JMBG \n ";}
+	
 }
